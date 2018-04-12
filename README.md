@@ -1,10 +1,10 @@
-## Experiment on Images
+## Experiment on mnist images
 
-Train the framework for generation using `mnist_wgan_inv.py`
+Train the framework for generation using `train.py`
 
 or use pre-trained framework located in `./models`
 
-Then generate natural adversaries using `mnist_natural_adversary.py`
+Then generate natural adversaries using `test.py`
 
 Classifiers: 
 - Random Forest (90.45%), `--classifier rf`
@@ -15,5 +15,3 @@ Algorithms:
 - hybrid shrinking search (default)
 
 Output samples are located in `./examples`
-
-`./tflib` is based on [Gulrajani et al., 2017](https://github.com/igul222/improved_wgan_training)
