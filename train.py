@@ -223,7 +223,7 @@ if __name__ == '__main__':
     parser.add_argument('--z_dim', type=int, default=64, help='dimension of z')
     parser.add_argument('--latent_dim', type=int, default=64,
                         help='latent dimension')
-    parser.add_argument('--iterations', type=int, default=10,
+    parser.add_argument('--iterations', type=int, default=100000,
                         help='training steps')
     parser.add_argument('--dis_iter', type=int, default=5,
                         help='discriminator steps')
