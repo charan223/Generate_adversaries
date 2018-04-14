@@ -15,3 +15,9 @@ Algorithms:
 - hybrid shrinking search (default)
 
 Output samples are located in `./examples`
+
+Defensive distillation:
+We have referred the following paper:
+Distillation as a Defense to Adversarial Perturbations against Deep Neural Networks by Nicolas Papernot, Patrick McDaniel, Xi Wu, Somesh Jha, Ananthram Swami
+
+Link to distillation code: https://github.com/carlini/nn_robust_attacks
